@@ -120,487 +120,487 @@ function placePicker (whoComes, howMuch, whatDo) {
 	//This is the big honkin' array that houses the choices
 	var choiceList = [
 	{
-	"placeName": "meLowDinnerOne",
+	"placeName": "Broad St Diner",
 	"numPeople": "me",
 	"pricePoint": "low",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "meLowDinnerTwo",
+	"placeName": "Midtown III",
 	"numPeople": "me",
 	"pricePoint": "low",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "meLowDinnerThree",
+	"placeName": "Oregon Diner",
 	"numPeople": "me",
 	"pricePoint": "low",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "weLowDinnerOne",
+	"placeName": "Teri's",
 	"numPeople": "we",
 	"pricePoint": "low",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "weLowDinnerTwo",
+	"placeName": "Silk City",
 	"numPeople": "we",
 	"pricePoint": "low",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "weLowDinnerThree",
+	"placeName": "Tom Jones Restaurant",
 	"numPeople": "we",
 	"pricePoint": "low",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "usLowDinnerOne",
+	"placeName": "South Street Diner",
 	"numPeople": "us",
 	"pricePoint": "low",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "usLowDinnerTwo",
+	"placeName": "Melrose Diner",
 	"numPeople": "us",
 	"pricePoint": "low",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "usLowDinnerThree",
+	"placeName": "West Chester Diner",
 	"numPeople": "us",
 	"pricePoint": "low",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "meMidDinnerOne",
+	"placeName": "Penrose Diner",
 	"numPeople": "me",
 	"pricePoint": "mid",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "meMidDinnerTwo",
+	"placeName": "Darling's Diner",
 	"numPeople": "me",
 	"pricePoint": "mid",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "meMidDinnerThree",
+	"placeName": "Aki",
 	"numPeople": "me",
 	"pricePoint": "mid",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "weMidDinnerOne",
+	"placeName": "The Continental",
 	"numPeople": "we",
 	"pricePoint": "mid",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "weMidDinnerTwo",
+	"placeName": "The Cantina",
 	"numPeople": "we",
 	"pricePoint": "mid",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "weMidDinnerThree",
+	"placeName": "El Rey",
 	"numPeople": "we",
 	"pricePoint": "mid",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "usMidDinnerOne",
+	"placeName": "SideCar",
 	"numPeople": "us",
 	"pricePoint": "mid",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "usMidDinnerTwo",
+	"placeName": "Trolley Car Cafe",
 	"numPeople": "us",
 	"pricePoint": "mid",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "usMidDinnerThree",
+	"placeName": "Marathon",
 	"numPeople": "us",
 	"pricePoint": "mid",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "meHighDinnerOne",
+	"placeName": "Morimoto",
 	"numPeople": "me",
 	"pricePoint": "high",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "meHighDinnerTwo",
+	"placeName": "Parc",
 	"numPeople": "me",
 	"pricePoint": "high",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "meHighDinnerThree",
+	"placeName": "Fork",
 	"numPeople": "me",
 	"pricePoint": "high",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "weHighDinnerOne",
+	"placeName": "Le Bec Fin",
 	"numPeople": "we",
 	"pricePoint": "high",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "weHighDinnerTwo",
+	"placeName": "LaCroix",
 	"numPeople": "we",
 	"pricePoint": "high",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "weHighDinnerThree",
+	"placeName": "Los Catrines Tequilas",
 	"numPeople": "we",
 	"pricePoint": "high",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "usHighDinnerOne",
+	"placeName": "Koo Zee Doo",
 	"numPeople": "us",
 	"pricePoint": "high",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "usHighDinnerTwo",
+	"placeName": "Chima Brazilian Steakhouse",
 	"numPeople": "us",
 	"pricePoint": "high",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "usHighDinnerThree",
+	"placeName": "Butcher and Singer",
 	"numPeople": "us",
 	"pricePoint": "high",
 	"activityType": "dinner"
 	},
 	{
-	"placeName": "meLowDrinksOne",
+	"placeName": "El Bar",
 	"numPeople": "me",
 	"pricePoint": "low",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "meLowDrinksTwo",
+	"placeName": "Locust Bar",
 	"numPeople": "me",
 	"pricePoint": "low",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "meLowDrinksThree",
+	"placeName": "The Druid's Keep",
 	"numPeople": "me",
 	"pricePoint": "low",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "weLowDrinksOne",
+	"placeName": "The Dive Bar",
 	"numPeople": "we",
 	"pricePoint": "low",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "weLowDrinksTwo",
+	"placeName": "McGillin's",
 	"numPeople": "we",
 	"pricePoint": "low",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "weLowDrinksThree",
+	"placeName": "Paddy's",
 	"numPeople": "we",
 	"pricePoint": "low",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "usLowDrinksOne",
+	"placeName": "Kung Fu Necktie",
 	"numPeople": "us",
 	"pricePoint": "low",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "usLowDrinksTwo",
+	"placeName": "Tattoed Mom",
 	"numPeople": "us",
 	"pricePoint": "low",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "usLowDrinksThree",
+	"placeName": "JR's South Philly",
 	"numPeople": "us",
 	"pricePoint": "low",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "meMidDrinksOne",
+	"placeName": "Graffiti Bar",
 	"numPeople": "me",
 	"pricePoint": "mid",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "meMidDrinksTwo",
+	"placeName": "Eulogy",
 	"numPeople": "me",
 	"pricePoint": "mid",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "meMidDrinksThree",
+	"placeName": "Fergie's",
 	"numPeople": "me",
 	"pricePoint": "mid",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "weMidDrinksOne",
+	"placeName": "Tria",
 	"numPeople": "we",
 	"pricePoint": "mid",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "weMidDrinksTwo",
+	"placeName": "National Mechanics",
 	"numPeople": "we",
 	"pricePoint": "mid",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "weMidDrinksThree",
+	"placeName": "P.O.P.E.",
 	"numPeople": "we",
 	"pricePoint": "mid",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "usMidDrinksOne",
+	"placeName": "Prohibition",
 	"numPeople": "us",
 	"pricePoint": "mid",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "usMidDrinksTwo",
+	"placeName": "Monk's",
 	"numPeople": "us",
 	"pricePoint": "mid",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "usMidDrinksThree",
+	"placeName": "Good Dog",
 	"numPeople": "us",
 	"pricePoint": "mid",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "meHighDrinksOne",
+	"placeName": "Emmanuelle",
 	"numPeople": "me",
 	"pricePoint": "high",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "meHighDrinksTwo",
+	"placeName": "Jamonera",
 	"numPeople": "me",
 	"pricePoint": "high",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "meHighDrinksThree",
+	"placeName": "Tinto",
 	"numPeople": "me",
 	"pricePoint": "high",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "weHighDrinksOne",
+	"placeName": "The Ranstead Room",
 	"numPeople": "we",
 	"pricePoint": "high",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "weHighDrinksTwo",
+	"placeName": "Bar Ferdinand",
 	"numPeople": "we",
 	"pricePoint": "high",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "weHighDrinksThree",
+	"placeName": "XIX",
 	"numPeople": "we",
 	"pricePoint": "high",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "usHighDrinksOne",
+	"placeName": "Voltage Cafe",
 	"numPeople": "us",
 	"pricePoint": "high",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "usHighDrinksTwo",
+	"placeName": "Xochitl",
 	"numPeople": "us",
 	"pricePoint": "high",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "usHighDrinksThree",
+	"placeName": "Cuba Libre",
 	"numPeople": "us",
 	"pricePoint": "high",
 	"activityType": "drinks"
 	},
 	{
-	"placeName": "meLowActivityOne",
+	"placeName": "Union Transfer",
 	"numPeople": "me",
 	"pricePoint": "low",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "meLowActivityTwo",
+	"placeName": "Johnny Brenda's",
 	"numPeople": "me",
 	"pricePoint": "low",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "meLowActivityThree",
+	"placeName": "The Rusty Nail",
 	"numPeople": "me",
 	"pricePoint": "low",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "weLowActivityOne",
+	"placeName": "Magic Gardens",
 	"numPeople": "we",
 	"pricePoint": "low",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "weLowActivityTwo",
+	"placeName": "Philly Improv Theater",
 	"numPeople": "we",
 	"pricePoint": "low",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "weLowActivityThree",
+	"placeName": "ComedySportz",
 	"numPeople": "we",
 	"pricePoint": "low",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "usLowActivityOne",
+	"placeName": "The Legendary Dobbs",
 	"numPeople": "us",
 	"pricePoint": "low",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "usLowActivityTwo",
+	"placeName": "Danger Danger",
 	"numPeople": "us",
 	"pricePoint": "low",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "usLowActivityThree",
+	"placeName": "The Grape Room",
 	"numPeople": "us",
 	"pricePoint": "low",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "meMidActivityOne",
+	"placeName": "The Tin Angel",
 	"numPeople": "me",
 	"pricePoint": "mid",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "meMidActivityTwo",
+	"placeName": "The Troc",
 	"numPeople": "me",
 	"pricePoint": "mid",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "meMidActivityThree",
+	"placeName": "Ritz Bourse",
 	"numPeople": "me",
 	"pricePoint": "mid",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "weMidActivityOne",
+	"placeName": "Lucky Strike",
 	"numPeople": "we",
 	"pricePoint": "mid",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "weMidActivityTwo",
+	"placeName": "World Cafe Live",
 	"numPeople": "we",
 	"pricePoint": "mid",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "weMidActivityThree",
+	"placeName": "Club Polaris",
 	"numPeople": "we",
 	"pricePoint": "mid",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "usMidActivityOne",
+	"placeName": "Shampoo/Nocturne",
 	"numPeople": "us",
 	"pricePoint": "mid",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "usMidActivityTwo",
+	"placeName": "North Bowl",
 	"numPeople": "us",
 	"pricePoint": "mid",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "usMidActivityThree",
+	"placeName": "Barcade",
 	"numPeople": "us",
 	"pricePoint": "mid",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "meHighActivityOne",
+	"placeName": "The Actor's Center",
 	"numPeople": "me",
 	"pricePoint": "high",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "meHighActivityTwo",
+	"placeName": "Tower Theatre",
 	"numPeople": "me",
 	"pricePoint": "high",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "meHighActivityThree",
+	"placeName": "Stay Home and Burn Money",
 	"numPeople": "me",
 	"pricePoint": "high",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "weHighActivityOne",
+	"placeName": "Rumor",
 	"numPeople": "we",
 	"pricePoint": "high",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "weHighActivityTwo",
+	"placeName": "Kimmel Center",
 	"numPeople": "we",
 	"pricePoint": "high",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "weHighActivityThree",
+	"placeName": "Opera Philadelphia",
 	"numPeople": "we",
 	"pricePoint": "high",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "usHighActivityOne",
+	"placeName": "Skirmish Paintball",
 	"numPeople": "us",
 	"pricePoint": "high",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "usHighActivityTwo",
+	"placeName": "Laser Pink Floyd",
 	"numPeople": "us",
 	"pricePoint": "high",
 	"activityType": "activity"
 	},
 	{
-	"placeName": "usHighActivityThree",
+	"placeName": "Get in the Van! We're going to Burning Man!",
 	"numPeople": "us",
 	"pricePoint": "high",
 	"activityType": "activity"
